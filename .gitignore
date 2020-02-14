@@ -31,7 +31,9 @@
 *.out
 *.app
 
-ticonv
-
 # Microsoft Visual Studio Code
 .vscode
+
+# Executable
+ticonv
+json/json
