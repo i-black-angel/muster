@@ -26,5 +26,4 @@ namespace mpl
     std::string iconvert(const std::string &fromCode, const std::string &toCode, const std::string &str);
 } // namespace mpl
 
-
 #endif /* _TICONV_H_ */
