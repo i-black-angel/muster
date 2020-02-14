@@ -1,5 +1,8 @@
 TARGET=ticonv
-LDFLAGS=-liconv
+# LDFLAGS=-liconv
+
+$(TARGET): ticonv.o
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -o $@ $<
 
 all: $(TARGET)
 

@@ -39,7 +39,7 @@ std::string iconvert(const std::string &fromCode, const std::string &toCode,
 
     char *outbuf = new char[str.size() * 2 + 1];  // twice of input stream
     size_t outbytes = str.size() * 2;
-	memset(outbuf, 0x00, outbytes + 1);
+	memset(outbuf, 0x00, outbytes + 1); // init buf
 
     char *inptr = inbuf;
     char *outptr = outbuf;

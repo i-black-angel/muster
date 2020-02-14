@@ -31,5 +31,7 @@
 *.out
 *.app
 
+ticonv
+
 # Microsoft Visual Studio Code
 .vscode
