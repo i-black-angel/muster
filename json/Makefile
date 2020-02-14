@@ -1,5 +1,5 @@
 TARGET=json
-CPPFLAGS = -I.
+CPPFLAGS = -Irapidjson/include
 CPPFLAGS += -DRAPIDJSON_HAS_STDSTRING
 
 $(TARGET): rapidjson.o

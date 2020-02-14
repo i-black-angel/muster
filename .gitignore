@@ -37,3 +37,4 @@
 # Executable
 ticonv
 json/json
+json/rapidjson
