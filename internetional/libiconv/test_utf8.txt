@@ -1,0 +1,12 @@
+版本发布：
+1）标准版本
+	make VERSION=T15122201  USRODM=LIUV300JT
+	
+2) 指定语言版本
+    	make VERSION=T15122201 USRODM=LIUV300JT DEVLANG=LANG_CH
+    
+3)使用Yincaa进程    
+    1,使用中心2上报TTX苏标平台，图片下方未带有报警类型，但可以在:主动安全证据中心->异常行驶证据中心查询到报警类型及报警级别；
+	上报另外一苏标平台，图片下方也未带有报警类型，但将鼠标移至图片查看时图片上方会显示报警类型；
+	编译选项使用USRODM=LIUV300JT；如:make VERSION=T19040303 USRODM=LIUV300JT
+
