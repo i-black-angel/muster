@@ -80,3 +80,9 @@ int main(int argc, char *argv[]) {
   ```bash
   LANGUAGE=zh_CN.UTF-8 ./helloworld
   ```
+
+## 参考资料
+
+1. [GNU gettext](http://www.gnu.org/software/gettext/)
+2. [红孩儿你好](https://www.cnblogs.com/274914765qq/archive/2015/11/17/4972315.html)
+3. [liutao的博客](http://blog.sina.com.cn/s/blog_593abc890100noo7.html)
