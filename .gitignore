@@ -19,6 +19,7 @@
 # Fortran module files
 *.mod
 *.smod
+*.mo
 
 # Compiled Static libraries
 *.lai
@@ -31,7 +32,10 @@
 *.out
 *.app
 
-ticonv
-
 # Microsoft Visual Studio Code
 .vscode
+
+# Executable
+ticonv
+json/json
+json/rapidjson
