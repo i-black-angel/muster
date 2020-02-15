@@ -39,3 +39,5 @@
 ticonv
 json/json
 json/rapidjson
+xml/xml
+xml/rapidxml
