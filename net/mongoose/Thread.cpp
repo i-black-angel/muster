@@ -86,7 +86,7 @@ size_t Thread::stackSize() const {
     return stacksize;
 }
 
-void Thread::setStackSize(size_t val {
+void Thread::setStackSize(size_t val) {
     pthread_attr_setstacksize(&_attr, val);
 }
 
