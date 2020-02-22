@@ -148,6 +148,8 @@ void json_write(const std::string &url)
 	rapidjson::Value urlv(rapidjson::kStringType);
 	urlv.SetString(url, allocator);
 	doc.AddMember(urlv, "https://www.google.com", allocator);
+	std::string strvalue = "blackangel";
+	doc.AddMember("username", strvalue, allocator);
     doc.AddMember("user", "spiderman", allocator);
 	doc.AddMember("price", 123, allocator);
 	doc.AddMember("yesorno", true, allocator);
