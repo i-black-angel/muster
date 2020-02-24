@@ -1,5 +1,5 @@
 /**
- * Copyright 2017 Shusheng Shao <iblackangel@163.com>
+ * Copyright 2020 Shusheng Shao <iblackangel@163.com>
  * 
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -21,7 +21,7 @@
 # pragma warning (disable: 4996)
 #endif
 
-namespace reco {
+namespace mpl {
 
 std::string uuidgen()
 {
