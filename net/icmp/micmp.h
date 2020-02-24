@@ -54,9 +54,4 @@ private:
 };
 }  // namespace mpl
 
-// #define MAX_WAIT_TIME 1
-// #define MAX_NO_PACKETS 2
-// #define ICMP_HEADSIZE 8
-// #define ICMP_PACKET_SIZE 640
-
 #endif /* _MICMP_H_ */
